@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Javascript</title>
+</head>
+
+<body>
+
+    <h2>Bai tap 1</h2>
+    <div>
+        <input type="text" placeholder="todo" id="todoInput" />
+        <button onclick="handleAddFirst()" id="btn">Add first index</button>
+        <button onclick="handleAddLast()" id="btn">Add last index</button>
+    </div>
+    <div>
+        <input type="text" placeholder="input position in array" id="todoPosition" />
+        <button onclick="handleAddAnyIndex()" id="btn">Add any index</button>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px;">
+        <div class="list-box">
+            <ul id="list">
+            </ul>
+        </div>
+    </div>
+
+    <h2>Bai tap 2</h2>
+  
+            <div id="listNumber"></div> 
+    </div>
+    <div>
+        <button onclick="calculateSumArray()" id="btn">Sum</button>
+        <span id="sum"></span>
+    </div>
+    <div>
+        <button onclick="ascendingArray()" id="btn">Ascending array</button>
+        <span id="ascending"></span>
+    </div>
+    <div>
+        <button onclick="findOddAndEvenNumber()" id="btn">Print Odd and Even number</button>
+        Even: <span id="even"></span>  -  Odd: <span id="odd"></span>
+    </div>
+
+    <script src="array.js"> </script>
+</body>
+
+
+
+</html>

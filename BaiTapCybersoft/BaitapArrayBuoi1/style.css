@@ -1,0 +1,28 @@
+.list-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+    width: auto;
+}
+
+.list-box > div {
+    margin-left: 5px;
+    /*border: 1px solid black;*/
+    height: 20px; 
+    border-radius: 0px;
+    width: auto;
+    /* Căn chỉnh tỉ lệ kích thước chiều dài */
+    aspect-ratio: 1;
+    text-align: left;
+    padding: 10px 0;
+}
+
+div {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.list-box > div > button{
+    margin-left: 10px;
+}
+ 
